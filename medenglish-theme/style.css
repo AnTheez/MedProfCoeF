@@ -1,0 +1,49 @@
+/*
+Theme Name: MedEnglish Theme
+Theme URI: https://medenglish.space
+Author: MedEnglish Team
+Description: Custom theme for medenglish.space. Built for Elementor.
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: #f0f4ff;
+    padding: 80px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin: 0 0 30px;
+}
+.hero .cta {
+    background: #0073e6;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 0;
+    background: #fff;
+}
+.features .feature {
+    flex: 0 0 30%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.features h3 {
+    margin-top: 15px;
+}
