@@ -3,47 +3,105 @@ Theme Name: MedEnglish Theme
 Theme URI: https://medenglish.space
 Author: MedEnglish Team
 Description: Custom theme for medenglish.space. Built for Elementor.
-Version: 1.0
+Version: 1.1
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Taviraj:wght@400;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Taviraj', serif;
     margin: 0;
     padding: 0;
+    color: #535967;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1f2949;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #e3e5eb;
+}
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.site-title a {
+    color: #1b52d8;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-primary {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.nav-primary a {
+    color: #1f2949;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .hero {
-    background: #f0f4ff;
-    padding: 80px 0;
+    background: linear-gradient(135deg, #1b52d8, #5a18c2);
+    color: #fff;
+    padding: 120px 0;
+}
+.hero .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content {
+    flex: 1 1 45%;
+}
+.hero-image {
+    flex: 1 1 45%;
     text-align: center;
 }
-.hero h1 {
-    font-size: 3rem;
-    margin: 0 0 20px;
-}
-.hero p {
-    font-size: 1.2rem;
-    margin: 0 0 30px;
+.hero-image img {
+    max-width: 100%;
+    height: auto;
 }
 .hero .cta {
-    background: #0073e6;
+    display: inline-block;
+    background: #ff6900;
     color: #fff;
-    padding: 12px 24px;
+    padding: 12px 30px;
     border-radius: 4px;
     text-decoration: none;
+    margin-top: 20px;
 }
+
 .features {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 60px 0;
-    background: #fff;
+    justify-content: space-between;
+    padding: 80px 0;
+    background: #f8f8f8;
 }
 .features .feature {
-    flex: 0 0 30%;
+    flex: 1 1 30%;
     margin-bottom: 40px;
     text-align: center;
 }
 .features h3 {
     margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-section {
+    padding: 80px 0;
 }

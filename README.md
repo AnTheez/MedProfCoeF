@@ -1,6 +1,6 @@
 # MedEnglish Theme
 
-This repository contains a minimal WordPress theme for [medenglish.space](https://medenglish.space). The theme is designed to work with the Elementor plugin so you can customize pages visually.
+This repository contains a WordPress theme for [medenglish.space](https://medenglish.space). The templates include a basic design inspired by the current site combined with a landing page layout similar to the preview on [youware.com](https://www.youware.com/project/ta165zxqf3).
 
 ## Installing the Theme
 
@@ -10,8 +10,8 @@ This repository contains a minimal WordPress theme for [medenglish.space](https:
 
 ## Customizing the Home Page
 
-The file `front-page.php` provides a simple layout with a hero section and three feature blocks. Edit this file or use Elementor to modify the design. To recreate the layout shown on <https://www.youware.com/project/ta165zxqf3>, open the WordPress editor with Elementor and replace the content blocks accordingly.
+The file `front-page.php` contains a hero section with two columns, feature highlights, and a contact placeholder. Edit the template or open the page with Elementor to add your own text and images.
 
 ## Developing
 
-You can edit the PHP templates and `style.css` to adjust fonts, colors, or layout. The theme only loads a minimal stylesheet, so most visual customization can be achieved using Elementor's page builder features.
+You can modify the PHP templates and `style.css` to change colors or layout. Elementor provides visual controls for additional customization.
